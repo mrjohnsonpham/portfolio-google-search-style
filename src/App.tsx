@@ -34,7 +34,7 @@ const App: React.FC = (): ReactElement => {
           render={(): ReactElement => <Hero search={search} />}
         />
       </Switch>
-    );
+    ); 
   }
   return (
     <div className="main-container">
